@@ -30,7 +30,7 @@ function mapToSquare(sourceArray){
 }
 
 function reduceToTotal(sourceArray, startingPoint){
-  if(startingPoint===null){
+  if(startingPoint===undefined){
     startingPoint=0;
   }
     for(let i=0;i<sourceArray.length;i++){
